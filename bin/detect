@@ -1,6 +1,7 @@
 #!/bin/sh
 
 if [ ! -f ".gitmodules" ]; then
+    echo "No submodules!"
     exit 1
 fi
 
